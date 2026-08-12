@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 应用私有外部存储 -->
+    <external-files-path
+        name="unpacked"
+        path="unpacked/" />
+    
+    <!-- 完整外部存储 (Android 10+) -->
+    <external-path
+        name="external"
+        path="." />
+    
+    <!-- 缓存目录 -->
+    <cache-path
+        name="cache"
+        path="." />
+    
+    <!-- 代码目录 -->
+    <external-files-path
+        name="code"
+        path="code/" />
+</paths>

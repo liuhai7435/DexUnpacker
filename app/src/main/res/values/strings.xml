@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DexUnpacker</string>
+    <string name="action_unpack">开始脱壳</string>
+    <string name="action_clear">清除结果</string>
+    <string name="status_initializing">初始化脱壳引擎...</string>
+    <string name="status_finding_dex">正在扫描 Dex 文件...</string>
+    <string name="status_unpacking">正在脱壳...</string>
+    <string name="status_completed">脱壳完成</string>
+    <string name="status_failed">脱壳失败</string>
+    <string name="permission_required">需要存储权限才能保存文件</string>
+    <string name="permission_granted">权限已授予</string>
+    <string name="no_dex_found">未发现可脱壳的 Dex 文件</string>
+    <string name="unpack_success_format">成功脱壳 %d 个文件</string>
+    <string name="output_directory">输出目录</string>
+    <string name="dex_count_format">发现 %d 个 Dex 文件</string>
+</resources>

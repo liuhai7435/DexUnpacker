@@ -1,0 +1,40 @@
+# Gradle
+.gradle/
+build/
+*/build/
+local.properties
+
+# Android Studio
+*.iml
+.DS_Store
+.idea/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# 密钥库（不要上传！）
+*.keystore
+*.jks
+keystore.properties
+
+# 日志
+*.log
+
+# 临时文件
+*.tmp
+*.swp
+*~
+
+# NDK
+obj/
+*.o
+*.a
+*.so
+
+# 构建产物（GitHub Actions 会生成）
+*.apk
+*.aab
+
+# 敏感信息
+**/local.properties
+**/gradle.properties.local
